@@ -1,7 +1,7 @@
 @import url( https://fonts.googleapis.com/css?family=Chewy );
 @import url( https://fonts.googleapis.com/css?family=Noto+Sans:700italic );
 * {
-	margin: 0px; padding: 0px;
+	margin: 0px; padding: 0px; box-sizing:border-box;
 }
 body {
 	padding: 40px; color: rgb(56, 64, 58); font-family: "Noto Sans", sans-serif; font-size: 20px;
@@ -26,4 +26,11 @@ img {
 }
 h2 {
 	padding-top: 20px; padding-bottom: 20px; font-family: "Chewy", cursive;
+}
+#splash {
+	background:url(fm_hero.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+	padding: 4em;
 }
