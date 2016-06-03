@@ -1,10 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:700italic);
+
 * {
 	padding: 0;
 	margin: 0;
 }
 
 body {
-	font-family: Helvetica, Arial, san-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 20px;
 	color: #38403A;
 	padding: 40px;
@@ -12,9 +15,11 @@ body {
 
 h1 {
 	color: #1221FF;
+	font-family: 'Chewy', cursive;
 }
 
 #slogan {
+	font-family: 'Noto Sans', sans-serif;
 	font-style: italic;
 }
 
@@ -23,6 +28,7 @@ ul, li {
 }
 
 main {
+	font-family: 'Noto Sans', sans-serif;
 	padding-left: 20px;
 	margin-left: 20px;
 }
@@ -32,6 +38,7 @@ img {
 }
 
 h2 {
+	font-family: 'Chewy', cursive;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
