@@ -1,0 +1,73 @@
+@import url( https://fonts.googleapis.com/css?family=Chewy );
+@import url( https://fonts.googleapis.com/css?family=Noto+Sans:700italic );
+* {
+	margin: 0px; padding: 0px; box-sizing:border-box;
+}
+body {
+	padding: 40px; color: rgb(56, 64, 58); font-family: "Noto Sans", sans-serif; font-size: 20px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: rgb(18, 33, 255); font-family: "Chewy", cursive;
+}
+#slogan {
+	font-family: "Noto Sans", sans-serif; font-style: italic;
+}
+
+#hero_image {
+	width: 100%;
+	background:url(images/fm_hero.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 4em;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div,section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+ul {
+	margin: 20px;
+}
+li {
+	margin: 20px;
+}
+main {
+	padding-left: 20px; font-family: "Noto Sans", sans-serif; margin-left: 20px;
+}
+
+h2 {
+	padding-top: 20px; padding-bottom: 20px; font-family: "Chewy", cursive;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
