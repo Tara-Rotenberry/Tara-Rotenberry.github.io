@@ -1,0 +1,175 @@
+@import url( https://fonts.googleapis.com/css?family=Chewy );
+@import url( https://fonts.googleapis.com/css?family=Noto+Sans:700italic );
+* {
+	margin: 0px; padding: 0px; box-sizing:border-box;
+}
+body {
+	padding: 40px; color: rgb(56, 64, 58); font-family: "Noto Sans", sans-serif; font-size: 18px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: rgb(18, 33, 255); font-family: "Chewy", cursive;
+}
+#slogan {
+	font-family: "Noto Sans", sans-serif; font-style: italic;
+}
+
+#hero_image {
+	width: 100%;
+	background:url(images/fm_hero.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 4em;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+div,section {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	padding: 20px;
+}
+
+aside img {
+	width: 100%;
+}
+
+article {
+	padding: 20px;
+}
+
+ul {
+	margin: 20px;
+}
+li {
+	margin: 20px;
+}
+main {
+	padding-left: 20px; font-family: "Noto Sans", sans-serif; margin-left: 20px;
+}
+
+h2 {
+	padding-top: 20px; padding-bottom: 20px; font-family: "Chewy", cursive;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+.fruit_picture {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#one .description {
+	width: 70%;
+	display: inline-block;
+}
+
+.vegetable_picture {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#two .description {
+	width: 70%;
+	display: inline-block;
+}
+
+.prepared_baked_goods_picture {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#three .description {
+	width: 70%;
+	display: inline-block;
+}
+
+.recipe_picture {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#four .description {
+	width: 70%;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 775) {
+	nav a {
+		font-size: 14px;
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#wrapper {
+		font-size: 12px;
+		width: 95%;
+		margin: 0;
+	}
+	nav a {
+		font-size: 12px;
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+
+	.fruit_picture, .vegetable_picture, .prepared_baked_goods_picture, .recipe_picture {
+		display: none;
+	}
+}
